@@ -1,0 +1,15 @@
+MI NEGOCIO ORGANIZADO — PWA DE PRUEBA
+
+Contenido:
+- index.html: aplicación financiera inicial.
+- manifest.webmanifest: metadatos de instalación.
+- sw.js: caché básica para uso offline tras la primera carga.
+- icons/: iconos iniciales.
+
+Cómo probar:
+1. Descomprime el ZIP.
+2. Abre index.html para probar formularios en local. La instalación PWA requiere servirlo por HTTPS o localhost.
+3. Publica estos archivos en un hosting estático HTTPS gratuito.
+4. Abre la URL en Chrome/Edge y busca “Instalar app”. En iPhone, abre la URL en Safari y usa Compartir > Añadir a pantalla de inicio.
+
+Limitaciones: los datos se guardan solo en el navegador/dispositivo. No hay cuentas, sincronización, copias de seguridad ni cobros. No uses datos financieros reales. Este paquete es una prueba técnica, no una app lista para clientes.
